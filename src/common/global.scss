@@ -1,0 +1,15 @@
+@mixin flex_column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+@mixin set_w_h($width, $height) {
+  width: $width;
+  height: $height;
+}
+
+@mixin flex_col_center {
+  display: flex;
+  align-items: center;
+}

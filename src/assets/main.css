@@ -1,0 +1,24 @@
+/* @import './base.css'; */
+/* CDN 服务仅供平台体验和调试使用，平台不承诺服务的稳定性，企业客户需下载字体包自行发布使用并做好备份。 */
+@import "/src/assets/iconFont/sets_nav/iconfont.css";
+@font-face {
+  font-family: "得意黑 斜体";
+  font-weight: 400;
+  src: url("//at.alicdn.com/wf/webfont/yYYALJY9can6/wwTQgSg-oVW2zNI6Wb43Y.woff2") format("woff2"),
+    url("//at.alicdn.com/wf/webfont/yYYALJY9can6/hsbg5D-sD5GLlIS3EoQqY.woff") format("woff");
+  font-display: swap;
+}
+#app {
+  /* background-color: #f2f3f5; */
+  height: 100%;
+}
+body,html {
+  background-color: #f2f3f5;
+  height: 100%;
+}
+
+.center {
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+}

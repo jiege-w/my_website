@@ -1,7 +1,11 @@
+<!--
+ * @Author: zhoujie
+ * @Description: 
+-->
 <script setup></script>
 <template>
   <div class="footer">
-    <div class="beian">苏ICP备2022036864号-1</div>
+    <div class="beian"><a href="https://beian.miit.gov.cn/">苏ICP备2022036864号-1</a></div>
   </div>
 </template>
 <style scoped lang="scss">
